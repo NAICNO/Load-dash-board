@@ -1,0 +1,28 @@
+{
+	"Systems": [{
+		"ID": 1,
+		"Name": "Fram",
+		"Location": "Oslo",
+		"QueueSystem": {
+			"Name": "SLURM",
+			"Version": "17.00"
+		},
+		"Specs": {
+			"Nodes": 5,
+			"TotCores": 300,
+			"CPUs": [{
+				"Type": "AMD",
+				"Cores": 64,
+				"Count": 100
+			}],
+			"GPUs": [{
+				"Type": "NVIDIA A100",
+				"Cores": 5000,
+				"Memory": 48,
+				"Count": 8
+			}]
+		}
+
+
+	}]
+}
