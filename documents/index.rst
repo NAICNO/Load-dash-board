@@ -18,4 +18,12 @@ Heading2
 --------
 Text
 
+.. raw:: html
 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <div style="width: 50%;margin: auto;">
+            <canvas id="myChart" style="height: 300px;" ></canvas>
+        </div>
+        <script src="plot.js"></script>
+    
+    
