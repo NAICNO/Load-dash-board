@@ -24,6 +24,6 @@ Text
         <div style="width: 50%;margin: auto;">
             <canvas id="myChart" style="height: 300px;" ></canvas>
         </div>
-        <script src="plot.js"></script>
+        <script src="_static/plot.js"></script>
     
     
